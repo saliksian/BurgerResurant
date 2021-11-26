@@ -11,17 +11,39 @@
 }
 .nav-link{
     font-family: 'Poppins', sans-serif;
-    color: white;
-    /* text-decoration: none; */
+    color: white;    
     list-style: none;
     font-size: 25px;
 }
-.navbar-toggler-icon{
+/* .navbar-toggler-icon{
     color: white;
-}
+} */
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
     outline: none;
     box-shadow: none;
+}
+
+.title_Group1{
+    font-size: 80px;
+    font-family: 'Archivo', sans-serif;
+    color: white;
+}
+.bodytext_Group1{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+}
+.button_group1{
+    width: 323px;
+    height: 66px;
+    background-color: #f54b3b;
+    outline: none;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
 }
