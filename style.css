@@ -118,15 +118,9 @@
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
 }
-
-
-
-
-
-
 /* medium screen  */
 @media screen and (max-width: 992px){
-    .button_group1{
+    .button_group1,.button_group3{
         width: 223px;
         height: 56px;
     }
@@ -136,14 +130,21 @@
     .bodytext_Group1{
         font-size: 26px;
     }
-    .title_group2{
+    .title_group2,.title_group3{
         font-size: 54px;
     }
-    .bodytext_group2{
+    .bodytext_group2,.bodytext_group3{
         font-size: 22px;
     }
     .group2{
         height: auto;
+    }
+    .group3{
+        height: auto;
+    }
+    .img_group3{
+        width: 374px;
+        height: 374px;
     }
 }
 /* small screen  */
@@ -157,14 +158,21 @@
         text-align: justify;
 
     }
-    .title_group2{
+    .title_group2,.title_group3{
         font-size: 44px;
     }
-    .bodytext_group2{
+    .bodytext_group2,.bodytext_group3{
         font-size: 20px;
         text-align: justify;
     }
     .group2{
         height: auto;
+    }
+    .group3{
+        height: auto;
+    }
+    .img_group3{
+        width: 274px;
+        height: 274px;
     }
 }
