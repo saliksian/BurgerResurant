@@ -71,6 +71,18 @@
     width: 245px;
     height: 245px;
 }
+.cards_title_group2{
+    font-family: 'Archivo', sans-serif;
+    color: #f64b3c;
+    font-size: 33px;
+    font-weight: bold;
+}
+.cards_bodytext_group2{
+    font-size: 25px;
+    color: #f64b3c;
+    font-family: 'Nunito', sans-serif;
+    
+}
 @media screen and (max-width: 992px){
     .button_group1{
         width: 223px;
