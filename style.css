@@ -36,8 +36,8 @@
     font-size: 30px;
 }
 .button_group1{
-    width: 323px;
-    height: 66px;
+    width: 223px;
+    height: 56px;
     background-color: #f54b3b;
     outline: none;
     border: none;
@@ -68,8 +68,8 @@
 
 }
 .card1_img_group2, .card2_img_group2, .card3_img_group2{
-    width: 245px;
-    height: 245px;
+    width: 70%;
+    height: 70%;
 }
 .cards_title_group2{
     font-family: 'Archivo', sans-serif;
@@ -90,8 +90,8 @@
     background-color: #f54b3c;
 }
 .img_group3{
-    width: 474px;
-    height: 474px;
+    width: 100%;
+    height: 100%;
 }
 .title_group3{
     font-size: 65px;
@@ -107,8 +107,8 @@
     
 }
 .button_group3{
-    width: 323px;
-    height: 66px;
+    width: 223px;
+    height: 56px;
     background-color: white;
     outline: none;
     border: none;
@@ -121,8 +121,8 @@
 /* medium screen  */
 @media screen and (max-width: 992px){
     .button_group1,.button_group3{
-        width: 223px;
-        height: 56px;
+        width: 123px;
+        height: 46px;
     }
     .title_Group1{
         font-size: 60px;
@@ -142,10 +142,7 @@
     .group3{
         height: auto;
     }
-    .img_group3{
-        width: 374px;
-        height: 374px;
-    }
+    
 }
 /* small screen  */
 @media screen and (max-width: 576px){
@@ -171,8 +168,5 @@
     .group3{
         height: auto;
     }
-    .img_group3{
-        width: 274px;
-        height: 274px;
-    }
+   
 }
