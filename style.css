@@ -118,12 +118,43 @@
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
 }
+
+/* Group 4 styling */
+.group4{
+    background-color: #f5eddf;
+}
+.title_group4{
+    font-family: 'Archivo', sans-serif;
+    color: #f54b3b;
+    font-size: 4.0625rem;
+
+}
+.bodytext_group4{
+    font-size: 1.5rem;
+    font-family: 'Nunito', sans-serif;
+    color: #f54b3b;
+    
+}
+.button_group4{
+    width: 223px;
+    height: 56px;
+    background-color: #f54b3b;
+    outline: none;
+    border: none;
+    border-radius: 6.25rem;
+    color: white;
+    font-size: 1.5625rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+
 /* medium screen  */
 @media screen and (max-width: 992px){
-    .button_group1,.button_group3{
-        width: 123px;
-        height: 46px;
-    }
+   
     .title_Group1{
         font-size: 60px;
     }
