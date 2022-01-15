@@ -146,8 +146,23 @@
     font-size: 1.5625rem;
     font-family: 'Montserrat', sans-serif;
 }
+    /* Group5 */
 
-
+.group5{
+    background-color: #f64b3c;
+    color: white;
+    height: 700px;
+}
+.title_group5{
+    font-size: 64px;
+    font-weight: bold;
+    font-family: 'Archivo', sans-serif;
+}
+.bodytext_group5{
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
 
 
 
@@ -161,16 +176,19 @@
     .bodytext_Group1{
         font-size: 26px;
     }
-    .title_group2,.title_group3{
+    .title_group2,.title_group3,.title_group5{
         font-size: 54px;
     }
-    .bodytext_group2,.bodytext_group3{
+    .bodytext_group2,.bodytext_group3,.bodytext_group5{
         font-size: 22px;
     }
     .group2{
         height: auto;
     }
     .group3{
+        height: auto;
+    }
+    .group5{
         height: auto;
     }
     
@@ -186,10 +204,10 @@
         text-align: justify;
 
     }
-    .title_group2,.title_group3{
+    .title_group2,.title_group3,.title_group5{
         font-size: 44px;
     }
-    .bodytext_group2,.bodytext_group3{
+    .bodytext_group2,.bodytext_group3,.bodytext_group5{
         font-size: 20px;
         text-align: justify;
     }
@@ -197,6 +215,9 @@
         height: auto;
     }
     .group3{
+        height: auto;
+    }
+    .group5{
         height: auto;
     }
    
