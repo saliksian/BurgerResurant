@@ -219,6 +219,53 @@
   font-family: "Montserrat", sans-serif;
 }
 
+
+/* Group7 */
+
+.group7{
+  background-image: url("./assests/BackGround\ \(2\).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 680px;
+}
+
+.blur{
+  height: 100%;
+  width: 100%;
+  background-color: #f54b3b;
+  opacity: 0.5;
+}
+.bodytext_group7 {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-weight: bold;
+}
+.title_group7 {
+  font-size: 64px;
+  font-weight: bold;
+  font-family: "Archivo", sans-serif;
+  color: white;
+}
+.group7_row{
+  padding-top: 276px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* medium screen  */
 @media screen and (max-width: 992px) {
   .title_Group1 {
@@ -229,12 +276,14 @@
   }
   .title_group2,
   .title_group3,
-  .title_group5 {
+  .title_group5,
+  .title_group7 {
     font-size: 54px;
   }
   .bodytext_group2,
   .bodytext_group3,
-  .bodytext_group5 {
+  .bodytext_group5,
+  .bodytext_group7 {
     font-size: 22px;
   }
   .group2 {
@@ -262,6 +311,9 @@
   .title_group6{
     font-size: 50px;
   }
+  .group7_row{
+    padding-top: 176px;
+  }
 }
 /* small screen  */
 @media screen and (max-width: 576px) {
@@ -275,12 +327,14 @@
   .title_group2,
   .title_group3,
   .title_group5,
-  .title_group6 {
+  .title_group6,
+  .title_group7{
     font-size: 44px;
   }
   .bodytext_group2,
   .bodytext_group3,
-  .bodytext_group5 {
+  .bodytext_group5,
+  .bodytext_group7 {
     font-size: 20px;
     text-align: justify;
   }
