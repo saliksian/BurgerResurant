@@ -163,7 +163,22 @@
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
-
+.circle{
+   width: 256px;
+   height: 256px;
+    border: 5px solid white;
+    /* border-radius: 100%; */
+}
+.group5_heading{
+    font-size: 4.0625rem;
+    font-weight: bold;
+    font-family: 'Archivo', sans-serif;
+}
+.group5_para{
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
 
 
 
@@ -191,6 +206,10 @@
     }
     .group5{
         height: auto;
+    }
+    .circle{
+        width: 200px;
+        height: 200px;
     }
     
 }
@@ -220,6 +239,10 @@
     }
     .group5{
         height: auto;
+    }
+    .circle{
+        width: 150px;
+        height: 150px;
     }
    
 }
