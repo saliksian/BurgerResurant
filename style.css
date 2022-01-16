@@ -205,6 +205,12 @@
     width: 200px;
     height: 200px;
   }
+  .group5_heading{
+      font-size: 3.125rem;
+  }
+  .group5_para{
+      font-size: 1.25rem;
+  }
 }
 /* small screen  */
 @media screen and (max-width: 576px) {
